@@ -1,0 +1,37 @@
+{
+  "name": "ConsoleStageApp",
+  "bucket": "ConsoleStageApp",
+  "template": "vue",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240416201456",
+  "function": {
+    "id": 20043,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 19779,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713298026,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713296333,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": {
+    "single-origin-id": 0,
+    "storage-origin-id": 125743,
+    "storage-origin-key": "9b6b0438-ed3d-4f70-8699-699c60a7f2aa",
+    "name": "ConsoleStageApp_object",
+    "address": null
+  },
+  "rules-engine": {
+    "created": true
+  }
+}
