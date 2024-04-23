@@ -1,37 +1,58 @@
 {
-  "name": "ConsoleStageApp",
-  "bucket": "ConsoleStageApp",
-  "template": "vue",
+  "name": "ConsoleStageAppAAABBBBBB",
+  "bucket": "ConsoleStageAppAAABBBBBB",
+  "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240416201456",
+  "prefix": "20240423193332",
+  "not-first-run": true,
   "function": {
-    "id": 20043,
+    "id": 20633,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 19779,
+    "instance-id": 20275,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713298026,
+    "id": 1713909056,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713296333,
+    "id": 1713907732,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
-  "origin": {
-    "single-origin-id": 0,
-    "storage-origin-id": 125743,
-    "storage-origin-key": "9b6b0438-ed3d-4f70-8699-699c60a7f2aa",
-    "name": "ConsoleStageApp_object",
-    "address": null
-  },
+  "origin": [
+    {
+      "origin-id": 126906,
+      "origin-key": "61e08d1f-f2fb-4786-bbbd-f0c5f2b47d92",
+      "name": "ConsoleStageAppAAABBBBBB_single"
+    },
+    {
+      "origin-id": 126907,
+      "origin-key": "fe26223d-64f0-48d1-a9c9-ac6f7df2fb1e",
+      "name": "origin-storage-default"
+    }
+  ],
   "rules-engine": {
-    "created": true
-  }
+    "created": false,
+    "rules": [
+      {
+        "id": 237844,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 237845,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 237846,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
 }
